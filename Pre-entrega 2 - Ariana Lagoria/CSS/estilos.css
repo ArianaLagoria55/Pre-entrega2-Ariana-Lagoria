@@ -1,0 +1,262 @@
+/*RESET*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+    ;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    ;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #fff;
+
+}
+
+/*HEADER*/
+
+.logo {
+    width: 80px;
+}
+
+@media screen and (max-width:1024) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:375px) {}
+
+
+/*FOOTER*/
+
+footer {
+    padding: 0;
+    margin: 0;
+}
+
+/*Inicio*/
+
+@media screen and (max-width:1024) {}
+
+@media screen and (max-width:768px) {
+    .logo-card {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .logo-card {
+        display: none;
+    }
+
+}
+
+.inicio {
+
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    ;
+}
+
+.carousel-inner {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.logo-card {
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/*Materias*/
+
+@media screen and (max-width:1024) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:375px) {}
+
+
+/*Participa*/
+
+@media screen and (max-width:1024) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:375px) {
+    .input-group-text {
+        width: 100px;
+    }
+}
+
+
+.participa {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    ;
+}
+
+.encuesta {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/*Contacto*/
+
+@media screen and (max-width:1024) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:375px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+.b-contacto {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    ;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.logo {
+    display: block;
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Nosotros*/
+
+@media screen and (max-width:1020) {
+    .nosotros {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        max-width: 1024px;
+        min-width: 1023;
+        padding-bottom: 120px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .contenedor-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        max-width: 768px;
+        min-width: 767;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    .nosotros {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        max-width: 479px;
+        min-width: 478;
+        padding-bottom: 120px;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+.contenedor-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    ;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
